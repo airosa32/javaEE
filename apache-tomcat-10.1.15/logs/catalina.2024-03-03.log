@@ -1,0 +1,946 @@
+03-Mar-2024 12:59:30.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+03-Mar-2024 12:59:30.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+03-Mar-2024 12:59:30.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+03-Mar-2024 12:59:30.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Mar-2024 12:59:30.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Mar-2024 12:59:30.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Mar-2024 12:59:30.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\Java
+03-Mar-2024 12:59:30.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+03-Mar-2024 12:59:30.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Mar-2024 12:59:30.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 12:59:30.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 12:59:30.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\logging.properties
+03-Mar-2024 12:59:30.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Mar-2024 12:59:30.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Mar-2024 12:59:30.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Mar-2024 12:59:30.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Mar-2024 12:59:30.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Mar-2024 12:59:30.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Mar-2024 12:59:30.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Mar-2024 12:59:30.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Mar-2024 12:59:30.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 12:59:30.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 12:59:30.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\temp
+03-Mar-2024 12:59:30.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;E:\Java\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;E:\Java\Java JDK\bin;E:\Git\cmd;C:\Users\Airosa\.console-ninja\.bin;C:\Users\Airosa\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;.]
+03-Mar-2024 12:59:30.833 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 12:59:30.970 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1490] milliseconds
+03-Mar-2024 12:59:31.125 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Mar-2024 12:59:31.125 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+03-Mar-2024 12:59:31.153 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml]
+03-Mar-2024 12:59:31.293 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/agenda] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has been ignored
+03-Mar-2024 12:59:32.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has finished in [962] ms
+03-Mar-2024 12:59:32.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+03-Mar-2024 12:59:32.126 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HelloTomcat] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has been ignored
+03-Mar-2024 12:59:32.133 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1930)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1659)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@302a07d]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4535)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4668)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\airos\Desktop\Linguagens\Java WEB\HelloTomcat\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+03-Mar-2024 12:59:32.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has finished in [37] ms
+03-Mar-2024 12:59:32.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml]
+03-Mar-2024 12:59:32.238 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Hello_Servlet] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has been ignored
+03-Mar-2024 12:59:32.531 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has finished in [373] ms
+03-Mar-2024 12:59:32.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs]
+03-Mar-2024 12:59:32.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs] has finished in [89] ms
+03-Mar-2024 12:59:32.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples]
+03-Mar-2024 12:59:34.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples] has finished in [1.657] ms
+03-Mar-2024 12:59:34.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager]
+03-Mar-2024 12:59:34.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager] has finished in [122] ms
+03-Mar-2024 12:59:34.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager]
+03-Mar-2024 12:59:34.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager] has finished in [86] ms
+03-Mar-2024 12:59:34.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT]
+03-Mar-2024 12:59:34.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT] has finished in [53] ms
+03-Mar-2024 12:59:34.550 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 12:59:34.642 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3669] milliseconds
+03-Mar-2024 13:02:16.902 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:02:19.930 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:02:19.982 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:02:20.036 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:02:24.764 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/agenda]
+03-Mar-2024 13:02:24.764 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:02:24.922 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:02:24.929 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:02:24.941 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:02:24.976 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:02:24.981 WARNING [http-nio-8080-exec-21] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:03:25.090 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:03:25.097 WARNING [http-nio-8080-exec-26] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:03:40.924 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:03:42.816 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:03:42.830 WARNING [http-nio-8080-exec-26] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:03:54.461 WARNING [http-nio-8080-exec-30] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:20.770 WARNING [http-nio-8080-exec-23] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:20.780 WARNING [http-nio-8080-exec-25] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:20.788 WARNING [http-nio-8080-exec-28] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:22.477 WARNING [http-nio-8080-exec-26] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:22.521 WARNING [http-nio-8080-exec-25] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:22.543 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:22.570 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:25.152 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/agenda]
+03-Mar-2024 13:04:25.152 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:04:25.179 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:04:33.303 WARNING [http-nio-8080-exec-27] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:33.322 WARNING [http-nio-8080-exec-23] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:33.334 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:35.194 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/agenda]
+03-Mar-2024 13:04:35.419 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/agenda] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/agenda]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1493)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1456)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1695)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [main] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 16 more
+03-Mar-2024 13:04:35.443 WARNING [http-nio-8080-exec-35] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:35.458 WARNING [http-nio-8080-exec-33] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:35.474 WARNING [http-nio-8080-exec-31] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:35.483 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:39.847 WARNING [http-nio-8080-exec-35] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:39.854 WARNING [http-nio-8080-exec-27] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:39.862 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:40.380 INFO [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/agenda]
+03-Mar-2024 13:04:40.395 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:40.421 INFO [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml]
+03-Mar-2024 13:04:40.423 WARNING [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/agenda] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has been ignored
+03-Mar-2024 13:04:40.459 INFO [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has finished in [37] ms
+03-Mar-2024 13:04:40.461 WARNING [http-nio-8080-exec-23] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:04:40.463 INFO [http-nio-8080-exec-29] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/agenda]] after start() had already been called. The second call will be ignored.
+03-Mar-2024 13:05:40.880 WARNING [http-nio-8080-exec-38] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:05:42.589 WARNING [http-nio-8080-exec-38] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:05:42.595 WARNING [http-nio-8080-exec-37] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:05:42.610 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:05:42.621 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:06:13.004 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Mar-2024 13:06:13.004 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 13:06:13.009 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Mar-2024 13:06:13.029 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 13:06:13.046 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 13:06:54.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+03-Mar-2024 13:06:54.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+03-Mar-2024 13:06:54.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+03-Mar-2024 13:06:54.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Mar-2024 13:06:54.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Mar-2024 13:06:54.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Mar-2024 13:06:54.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\Java
+03-Mar-2024 13:06:54.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+03-Mar-2024 13:06:54.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Mar-2024 13:06:54.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 13:06:54.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 13:06:54.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\logging.properties
+03-Mar-2024 13:06:54.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Mar-2024 13:06:54.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Mar-2024 13:06:54.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Mar-2024 13:06:54.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Mar-2024 13:06:54.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Mar-2024 13:06:54.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Mar-2024 13:06:54.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Mar-2024 13:06:54.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Mar-2024 13:06:54.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 13:06:54.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 13:06:54.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\temp
+03-Mar-2024 13:06:54.294 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;E:\Java\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;E:\Java\Java JDK\bin;E:\Git\cmd;C:\Users\Airosa\.console-ninja\.bin;C:\Users\Airosa\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;.]
+03-Mar-2024 13:06:54.819 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 13:06:54.935 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [986] milliseconds
+03-Mar-2024 13:06:55.012 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Mar-2024 13:06:55.013 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+03-Mar-2024 13:06:55.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml]
+03-Mar-2024 13:06:55.062 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/agenda] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has been ignored
+03-Mar-2024 13:06:55.527 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has finished in [498] ms
+03-Mar-2024 13:06:55.527 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+03-Mar-2024 13:06:55.528 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HelloTomcat] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has been ignored
+03-Mar-2024 13:06:55.534 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1930)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1659)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@34f7234e]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4535)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4668)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\airos\Desktop\Linguagens\Java WEB\HelloTomcat\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+03-Mar-2024 13:06:55.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has finished in [71] ms
+03-Mar-2024 13:06:55.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml]
+03-Mar-2024 13:06:55.609 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Hello_Servlet] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has been ignored
+03-Mar-2024 13:06:55.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has finished in [129] ms
+03-Mar-2024 13:06:55.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs]
+03-Mar-2024 13:06:55.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs] has finished in [72] ms
+03-Mar-2024 13:06:55.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples]
+03-Mar-2024 13:06:56.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples] has finished in [478] ms
+03-Mar-2024 13:06:56.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager]
+03-Mar-2024 13:06:56.323 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager] has finished in [42] ms
+03-Mar-2024 13:06:56.323 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager]
+03-Mar-2024 13:06:56.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager] has finished in [66] ms
+03-Mar-2024 13:06:56.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT]
+03-Mar-2024 13:06:56.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT] has finished in [62] ms
+03-Mar-2024 13:06:56.456 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 13:06:56.493 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1554] milliseconds
+03-Mar-2024 13:07:32.599 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:07:41.030 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:07:56.815 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:07:56.825 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:07:56.853 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:07:58.476 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:07:58.476 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:07:58.514 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:07:58.522 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:08:06.547 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/agenda]
+03-Mar-2024 13:08:06.547 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:08:06.596 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:09:24.087 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:09:24.096 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:09:24.105 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:09:25.815 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:09:25.823 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:09:25.850 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:09:25.879 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:09:26.687 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/agenda]
+03-Mar-2024 13:09:26.688 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:09:26.792 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:09:34.981 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:09:34.999 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:01.953 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:05.102 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:05.118 WARNING [http-nio-8080-exec-23] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:22.809 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:22.871 WARNING [http-nio-8080-exec-23] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:22.890 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:24.852 WARNING [http-nio-8080-exec-23] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:24.865 WARNING [http-nio-8080-exec-21] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:24.880 WARNING [http-nio-8080-exec-21] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:24.888 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:26.911 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/agenda]
+03-Mar-2024 13:10:26.911 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:10:26.961 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:10:47.877 WARNING [http-nio-8080-exec-31] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:47.891 WARNING [http-nio-8080-exec-27] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:47.907 WARNING [http-nio-8080-exec-30] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:49.259 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:49.263 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:49.278 WARNING [http-nio-8080-exec-27] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:49.286 WARNING [http-nio-8080-exec-27] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:54.108 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:54.117 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:54.126 WARNING [http-nio-8080-exec-33] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:54.653 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/agenda]
+03-Mar-2024 13:10:54.662 WARNING [http-nio-8080-exec-34] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:54.670 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml]
+03-Mar-2024 13:10:54.677 WARNING [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/agenda] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has been ignored
+03-Mar-2024 13:10:54.711 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has finished in [41] ms
+03-Mar-2024 13:10:54.713 WARNING [http-nio-8080-exec-26] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:10:54.716 INFO [http-nio-8080-exec-32] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/agenda]] after start() had already been called. The second call will be ignored.
+03-Mar-2024 13:11:15.513 WARNING [http-nio-8080-exec-30] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:11:16.899 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:11:16.903 WARNING [http-nio-8080-exec-26] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:11:16.914 WARNING [http-nio-8080-exec-37] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:11:16.920 WARNING [http-nio-8080-exec-30] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:11:49.481 WARNING [http-nio-8080-exec-35] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:11:54.615 WARNING [http-nio-8080-exec-26] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:11:54.635 WARNING [http-nio-8080-exec-22] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:12:09.844 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:12:21.821 WARNING [http-nio-8080-exec-47] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:12:24.417 WARNING [http-nio-8080-exec-39] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:12:24.424 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:13:11.137 WARNING [http-nio-8080-exec-46] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:13:13.073 WARNING [http-nio-8080-exec-42] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:13:13.085 WARNING [http-nio-8080-exec-46] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:13:28.380 WARNING [http-nio-8080-exec-42] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:13:39.695 WARNING [http-nio-8080-exec-42] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:07.804 WARNING [http-nio-8080-exec-41] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:22.541 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:22.555 WARNING [http-nio-8080-exec-43] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:52.467 WARNING [http-nio-8080-exec-45] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:57.782 WARNING [http-nio-8080-exec-42] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:57.789 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:57.797 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:58.241 WARNING [http-nio-8080-exec-43] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:58.245 WARNING [http-nio-8080-exec-46] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:58.254 WARNING [http-nio-8080-exec-47] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:14:58.260 WARNING [http-nio-8080-exec-45] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:15:07.556 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/agenda]
+03-Mar-2024 13:15:07.556 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:15:07.680 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:15:33.834 WARNING [http-nio-8080-exec-49] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:15:45.803 WARNING [http-nio-8080-exec-52] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:15:51.638 WARNING [http-nio-8080-exec-58] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:15:51.643 WARNING [http-nio-8080-exec-54] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:15:51.651 WARNING [http-nio-8080-exec-51] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:15:57.721 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/agenda]
+03-Mar-2024 13:15:57.721 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:15:57.755 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:15:59.971 WARNING [http-nio-8080-exec-54] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:15:59.984 WARNING [http-nio-8080-exec-60] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:15:59.992 WARNING [http-nio-8080-exec-54] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:15:59.998 WARNING [http-nio-8080-exec-59] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:16:19.362 WARNING [http-nio-8080-exec-63] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:16:19.369 WARNING [http-nio-8080-exec-60] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:19:22.989 WARNING [http-nio-8080-exec-62] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:19:22.997 WARNING [http-nio-8080-exec-63] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:19:23.012 INFO [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:19:23.062 INFO [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:19:26.425 WARNING [http-nio-8080-exec-67] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:19:26.447 WARNING [http-nio-8080-exec-69] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:19:26.461 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:19:26.708 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:20:27.902 WARNING [http-nio-8080-exec-65] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:20:27.912 WARNING [http-nio-8080-exec-67] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:20:27.914 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:20:27.959 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:22:01.570 WARNING [http-nio-8080-exec-74] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:22:01.576 WARNING [http-nio-8080-exec-62] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:22:01.578 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:22:01.607 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:22:16.054 WARNING [http-nio-8080-exec-69] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:22:16.059 WARNING [http-nio-8080-exec-72] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:22:16.061 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:22:16.093 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:24:28.708 WARNING [http-nio-8080-exec-80] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:24:28.715 WARNING [http-nio-8080-exec-78] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:24:28.717 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:24:28.757 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:47:12.816 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:47:12.850 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:47:58.091 INFO [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:47:58.165 INFO [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:48:20.871 WARNING [http-nio-8080-exec-86] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:48:20.879 WARNING [http-nio-8080-exec-85] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:48:20.882 INFO [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:48:20.920 INFO [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:48:29.592 WARNING [http-nio-8080-exec-93] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:48:29.598 WARNING [http-nio-8080-exec-89] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:48:29.600 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:48:29.632 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:49:25.054 WARNING [http-nio-8080-exec-89] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:49:25.062 WARNING [http-nio-8080-exec-83] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:49:25.064 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:49:25.102 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:51:07.537 WARNING [http-nio-8080-exec-88] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:51:07.542 WARNING [http-nio-8080-exec-97] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:51:07.544 INFO [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:51:07.572 INFO [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:51:41.133 WARNING [http-nio-8080-exec-86] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:51:41.142 WARNING [http-nio-8080-exec-88] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:51:41.144 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:51:41.180 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:51:51.086 WARNING [http-nio-8080-exec-94] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:51:51.095 WARNING [http-nio-8080-exec-90] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:51:51.098 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:51:51.161 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:52:26.316 WARNING [http-nio-8080-exec-91] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:52:26.323 WARNING [http-nio-8080-exec-100] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:52:26.324 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:52:26.364 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:53:03.880 WARNING [http-nio-8080-exec-101] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:53:03.886 WARNING [http-nio-8080-exec-90] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:53:03.888 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:53:03.916 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 13:53:11.430 WARNING [http-nio-8080-exec-85] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:53:11.438 WARNING [http-nio-8080-exec-89] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 13:53:11.439 INFO [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 13:53:11.472 INFO [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:31:40.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+03-Mar-2024 15:31:40.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+03-Mar-2024 15:31:40.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+03-Mar-2024 15:31:40.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Mar-2024 15:31:40.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Mar-2024 15:31:40.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Mar-2024 15:31:40.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\Java
+03-Mar-2024 15:31:40.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+03-Mar-2024 15:31:40.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Mar-2024 15:31:40.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:31:40.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:31:40.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\logging.properties
+03-Mar-2024 15:31:40.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Mar-2024 15:31:40.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Mar-2024 15:31:40.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Mar-2024 15:31:40.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Mar-2024 15:31:40.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Mar-2024 15:31:40.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Mar-2024 15:31:40.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Mar-2024 15:31:40.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Mar-2024 15:31:40.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:31:40.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:31:40.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\temp
+03-Mar-2024 15:31:40.859 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;E:\Java\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;E:\Java\Java JDK\bin;E:\Git\cmd;C:\Windows\System32;C:\Users\Airosa\.console-ninja\.bin;C:\Users\Airosa\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;.]
+03-Mar-2024 15:31:41.480 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:31:41.618 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1244] milliseconds
+03-Mar-2024 15:31:41.751 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Mar-2024 15:31:41.751 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+03-Mar-2024 15:31:41.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml]
+03-Mar-2024 15:31:41.906 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/agenda] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has been ignored
+03-Mar-2024 15:31:42.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has finished in [863] ms
+03-Mar-2024 15:31:42.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+03-Mar-2024 15:31:42.645 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HelloTomcat] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has been ignored
+03-Mar-2024 15:31:42.651 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1930)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1659)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@65fe9e33]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4535)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4668)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\airos\Desktop\Linguagens\Java WEB\HelloTomcat\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+03-Mar-2024 15:31:42.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has finished in [43] ms
+03-Mar-2024 15:31:42.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml]
+03-Mar-2024 15:31:42.727 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Hello_Servlet] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has been ignored
+03-Mar-2024 15:31:42.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has finished in [259] ms
+03-Mar-2024 15:31:42.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs]
+03-Mar-2024 15:31:43.042 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs] has finished in [100] ms
+03-Mar-2024 15:31:43.042 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples]
+03-Mar-2024 15:31:44.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples] has finished in [1.873] ms
+03-Mar-2024 15:31:44.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager]
+03-Mar-2024 15:31:45.072 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager] has finished in [154] ms
+03-Mar-2024 15:31:45.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager]
+03-Mar-2024 15:31:45.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager] has finished in [154] ms
+03-Mar-2024 15:31:45.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT]
+03-Mar-2024 15:31:45.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT] has finished in [93] ms
+03-Mar-2024 15:31:45.329 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:31:45.434 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3814] milliseconds
+03-Mar-2024 15:31:47.865 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:31:48.111 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:32:05.860 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:34:51.372 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:34:51.451 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:34:51.457 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:34:51.574 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:34:53.917 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:34:53.937 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:34:53.937 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:34:54.196 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:35:00.503 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:35:00.510 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:35:00.526 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:35:00.529 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:35:00.576 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:36:42.973 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:36:42.995 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:36:43.000 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:36:43.083 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:36:47.511 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:36:47.518 WARNING [http-nio-8080-exec-30] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:36:47.533 WARNING [http-nio-8080-exec-28] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:36:47.536 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:36:47.579 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:37:02.372 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:37:02.386 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:37:13.098 WARNING [http-nio-8080-exec-32] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:37:13.112 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:37:13.117 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:37:13.212 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:37:15.151 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:37:15.164 WARNING [http-nio-8080-exec-24] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:37:15.175 WARNING [http-nio-8080-exec-25] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:37:15.178 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:37:15.232 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:38:55.475 WARNING [http-nio-8080-exec-36] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:38:55.483 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:38:55.486 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:38:55.531 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:39:17.805 WARNING [http-nio-8080-exec-37] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:39:17.812 WARNING [http-nio-8080-exec-36] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:39:17.814 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:39:17.850 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:39:59.002 WARNING [http-nio-8080-exec-25] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:39:59.009 WARNING [http-nio-8080-exec-28] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:39:59.011 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:39:59.048 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:40:22.996 WARNING [http-nio-8080-exec-28] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:23.005 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:23.009 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:40:23.055 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:40:23.830 WARNING [http-nio-8080-exec-25] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:23.837 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:23.854 WARNING [http-nio-8080-exec-35] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:23.856 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:40:23.911 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:40:46.572 WARNING [http-nio-8080-exec-34] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:46.582 WARNING [http-nio-8080-exec-34] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:46.585 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:40:46.626 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:40:54.639 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:54.645 WARNING [http-nio-8080-exec-39] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:54.649 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:40:54.683 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:40:55.993 WARNING [http-nio-8080-exec-35] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:56.003 WARNING [http-nio-8080-exec-42] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:56.020 WARNING [http-nio-8080-exec-35] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:40:56.022 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:40:56.063 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:41:27.296 WARNING [http-nio-8080-exec-49] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:41:27.304 WARNING [http-nio-8080-exec-48] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:41:37.921 WARNING [http-nio-8080-exec-50] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:41:37.929 WARNING [http-nio-8080-exec-51] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:41:37.931 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:41:38.018 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:42:12.091 WARNING [http-nio-8080-exec-47] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:42:12.101 WARNING [http-nio-8080-exec-49] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:42:12.104 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:42:12.158 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:42:13.002 WARNING [http-nio-8080-exec-55] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:42:13.022 WARNING [http-nio-8080-exec-52] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:42:13.038 WARNING [http-nio-8080-exec-52] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:42:13.040 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:42:13.077 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:42:26.477 WARNING [http-nio-8080-exec-49] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:42:26.484 WARNING [http-nio-8080-exec-55] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:42:26.486 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:42:26.552 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:42:42.124 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Mar-2024 15:42:42.124 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:42:42.129 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Mar-2024 15:42:42.148 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:42:42.160 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:43:56.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+03-Mar-2024 15:43:56.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+03-Mar-2024 15:43:56.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+03-Mar-2024 15:43:56.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Mar-2024 15:43:56.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Mar-2024 15:43:56.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Mar-2024 15:43:56.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\Java
+03-Mar-2024 15:43:56.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+03-Mar-2024 15:43:56.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Mar-2024 15:43:56.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:43:56.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:43:56.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\logging.properties
+03-Mar-2024 15:43:56.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Mar-2024 15:43:56.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Mar-2024 15:43:56.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Mar-2024 15:43:56.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Mar-2024 15:43:56.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Mar-2024 15:43:56.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Mar-2024 15:43:56.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Mar-2024 15:43:56.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Mar-2024 15:43:56.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:43:56.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:43:56.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\temp
+03-Mar-2024 15:43:56.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;E:\Java\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;E:\Java\Java JDK\bin;E:\Git\cmd;C:\Windows\System32;C:\Users\Airosa\.console-ninja\.bin;C:\Users\Airosa\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;.]
+03-Mar-2024 15:43:56.972 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:43:57.064 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [944] milliseconds
+03-Mar-2024 15:43:57.221 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Mar-2024 15:43:57.222 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+03-Mar-2024 15:43:57.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml]
+03-Mar-2024 15:43:57.303 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/agenda] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has been ignored
+03-Mar-2024 15:43:57.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has finished in [558] ms
+03-Mar-2024 15:43:57.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+03-Mar-2024 15:43:57.797 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HelloTomcat] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has been ignored
+03-Mar-2024 15:43:57.806 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1930)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1659)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@302a07d]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4535)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4668)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\airos\Desktop\Linguagens\Java WEB\HelloTomcat\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+03-Mar-2024 15:43:57.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has finished in [72] ms
+03-Mar-2024 15:43:57.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml]
+03-Mar-2024 15:43:57.871 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Hello_Servlet] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has been ignored
+03-Mar-2024 15:43:58.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has finished in [163] ms
+03-Mar-2024 15:43:58.033 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs]
+03-Mar-2024 15:43:58.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs] has finished in [64] ms
+03-Mar-2024 15:43:58.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples]
+03-Mar-2024 15:43:58.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples] has finished in [476] ms
+03-Mar-2024 15:43:58.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager]
+03-Mar-2024 15:43:58.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager] has finished in [44] ms
+03-Mar-2024 15:43:58.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager]
+03-Mar-2024 15:43:58.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager] has finished in [71] ms
+03-Mar-2024 15:43:58.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT]
+03-Mar-2024 15:43:58.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT] has finished in [47] ms
+03-Mar-2024 15:43:58.744 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:43:58.801 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1732] milliseconds
+03-Mar-2024 15:44:01.798 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:44:01.863 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:45:39.992 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:45:39.997 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:45:40.286 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:46:18.536 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:46:18.544 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:46:18.547 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:46:18.592 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:46:27.203 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:46:27.214 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:46:27.218 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:46:27.278 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:46:32.582 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:46:32.591 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:46:32.604 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:46:32.608 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:46:32.651 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:47:21.629 WARNING [http-nio-8080-exec-26] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:47:21.642 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:47:21.648 INFO [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:47:21.870 INFO [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:47:33.367 WARNING [http-nio-8080-exec-25] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:47:33.378 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:47:33.378 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:47:33.422 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:47:34.508 WARNING [http-nio-8080-exec-30] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:47:34.508 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:47:34.508 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:47:34.566 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:54:09.174 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Mar-2024 15:54:09.175 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:54:09.179 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Mar-2024 15:54:09.199 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:54:09.214 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\Java
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:55:20.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\logging.properties
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Linguagens\Java WEB\apache-tomcat-10.1.15
+03-Mar-2024 15:55:20.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Linguagens\Java WEB\apache-tomcat-10.1.15\temp
+03-Mar-2024 15:55:20.135 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;E:\Java\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;E:\Java\Java JDK\bin;E:\Git\cmd;C:\Windows\System32;C:\Users\Airosa\.console-ninja\.bin;C:\Users\Airosa\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;.]
+03-Mar-2024 15:55:20.724 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:55:20.798 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [988] milliseconds
+03-Mar-2024 15:55:20.915 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Mar-2024 15:55:20.915 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+03-Mar-2024 15:55:20.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml]
+03-Mar-2024 15:55:20.977 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/agenda] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has been ignored
+03-Mar-2024 15:55:21.658 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\agenda.xml] has finished in [731] ms
+03-Mar-2024 15:55:21.658 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+03-Mar-2024 15:55:21.658 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HelloTomcat] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has been ignored
+03-Mar-2024 15:55:21.698 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1930)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1659)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5cdd09b1]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4535)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4668)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\airos\Desktop\Linguagens\Java WEB\HelloTomcat\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+03-Mar-2024 15:55:21.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\HelloTomcat.xml] has finished in [72] ms
+03-Mar-2024 15:55:21.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml]
+03-Mar-2024 15:55:21.746 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Hello_Servlet] in deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has been ignored
+03-Mar-2024 15:55:21.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\conf\Catalina\localhost\Hello_Servlet.xml] has finished in [161] ms
+03-Mar-2024 15:55:21.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs]
+03-Mar-2024 15:55:21.974 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\docs] has finished in [82] ms
+03-Mar-2024 15:55:21.974 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples]
+03-Mar-2024 15:55:22.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\examples] has finished in [485] ms
+03-Mar-2024 15:55:22.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager]
+03-Mar-2024 15:55:22.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\host-manager] has finished in [52] ms
+03-Mar-2024 15:55:22.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager]
+03-Mar-2024 15:55:22.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\manager] has finished in [141] ms
+03-Mar-2024 15:55:22.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT]
+03-Mar-2024 15:55:22.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Linguagens\Java WEB\apache-tomcat-10.1.15\webapps\ROOT] has finished in [37] ms
+03-Mar-2024 15:55:22.691 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 15:55:22.783 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1972] milliseconds
+03-Mar-2024 15:55:24.516 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:55:24.584 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:55:37.368 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:55:37.374 INFO [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:55:37.516 INFO [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 15:55:47.785 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:55:47.803 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 15:55:47.805 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 15:55:47.850 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:01:27.346 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:01:27.439 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:01:27.813 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:01:27.895 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:01:39.453 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:01:39.469 WARNING [http-nio-8080-exec-22] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:01:39.488 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:01:39.494 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:01:39.536 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:03:00.830 WARNING [http-nio-8080-exec-26] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:03:00.837 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:03:00.840 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:03:00.882 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:03:16.788 WARNING [http-nio-8080-exec-32] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:03:16.798 WARNING [http-nio-8080-exec-28] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:03:16.801 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:03:16.847 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:03:52.027 WARNING [http-nio-8080-exec-23] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:03:52.034 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:03:52.041 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:03:52.079 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:07:37.195 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:07:38.939 WARNING [http-nio-8080-exec-39] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:07:38.947 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:07:38.950 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:07:39.104 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:08:40.434 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:08:40.452 WARNING [http-nio-8080-exec-40] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:08:40.452 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:08:41.790 INFO [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Mar-2024 16:08:41.792 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:08:43.275 WARNING [http-nio-8080-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:08:43.282 WARNING [http-nio-8080-exec-49] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:08:43.284 INFO [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:08:43.908 INFO [http-nio-8080-exec-46] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Mar-2024 16:08:43.910 INFO [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:08:56.104 WARNING [http-nio-8080-exec-50] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:08:56.111 WARNING [http-nio-8080-exec-43] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:08:56.122 WARNING [http-nio-8080-exec-44] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado []
+03-Mar-2024 16:08:56.126 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] has started
+03-Mar-2024 16:08:56.479 INFO [http-nio-8080-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Mar-2024 16:08:56.481 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/agenda] is completed
+03-Mar-2024 16:24:42.698 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Mar-2024 16:24:42.698 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 16:24:42.700 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Mar-2024 16:24:42.716 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [agenda] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Mar-2024 16:24:42.717 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [agenda] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+03-Mar-2024 16:24:42.725 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Mar-2024 16:24:42.738 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
