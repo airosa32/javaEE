@@ -1,0 +1,117 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2 de mar. de 2024, 16:18:29
+    Author     : Airosa
+*/
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+h1 {
+    color: aqua;
+}
+
+.caixa {
+    outline: none;
+    border: none;
+    border-bottom: 4px solid aqua;
+    width: 320px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#btn {
+    border: none;
+}
+
+.botao {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: aqua;
+    color: aliceblue;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 0.7em;
+    border: none;
+    box-shadow: 0.15em 0.15em 0.3em aqua;
+    transition: 1s;
+}
+.botao:hover {
+    box-shadow: 0.15em 0.15em 0.8em aqua;
+    transition: 1s;
+}
+.botao:active {
+    background-color: blue;
+    box-shadow: 0.15em 0.15em 0.8em aqua;    
+}
+
+#tabela {
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+#tabela th {
+    border: 1px solid aqua;
+    padding: 10px;
+    text-align: left;
+    background-color: aqua;
+    color: white;
+}
+
+#tabela td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.editar {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: aqua;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 0.7em;
+    border: none;
+    background-color: aqua;
+    color: aliceblue;
+    padding: 5px 10px;
+}
+
+#editar:hover {
+    background-color: aliceblue;
+    color: aqua;
+    transition: 1s;
+}
+
+#excluir {
+    background-color: red;
+}
+
+#relatorio {
+    background-color: red;
+    box-shadow: 0.15em 0.15em 0.3em red;
+    transition: 1s;
+}
+
+#relatorio:hover {
+    background-color: red;
+    box-shadow: 0.15em 0.15em 0.8em red;
+    transition: 1s;
+}
+
+#relatorio:active {
+    background-color: blue;
+    box-shadow: 0.15em 0.15em 0.8em red;    
+}
